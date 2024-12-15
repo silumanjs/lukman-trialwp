@@ -1,0 +1,99 @@
+# WordPress Core files and folders
+wp-admin/
+wp-includes/
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+index.php
+
+# Configuration files
+wp-config.php
+wp-config-sample.php
+.htaccess
+
+# Uploads directory
+wp-content/uploads/
+
+# Plugins directory (if you're not managing plugins with Git)
+wp-content/plugins/*
+# If you want to track specific plugins, uncomment and modify:
+# !wp-content/plugins/your-custom-plugin/
+
+# Themes directory (if you're not managing themes with Git)
+wp-content/themes/*
+# If you want to track specific themes, uncomment and modify:
+# !wp-content/themes/your-custom-theme/
+
+# Upgrade files
+wp-content/upgrade/
+
+# Backup files
+wp-content/backup-db/
+wp-content/backups/
+wp-content/cache/
+wp-content/upgrade/
+*.back
+*.backup
+*.bak
+*.swp
+
+# Log files
+*.log
+error_log
+access_log
+
+# Cache and temporary files
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/debug.log
+
+# Common directories to ignore
+node_modules/
+vendor/
+.sass-cache/
+bower_components/
+
+# IDE and Editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.eclipse/
+.settings/
+.buildpath
+.project
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Composer files
+composer.phar
+/vendor/
+
+# Other WordPress specific files
+wp-content/mu-plugins/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/blogs.dir/
+.phpunit.result.cache
+/tests/

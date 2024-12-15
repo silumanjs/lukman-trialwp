@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koneksi-kpp.id/sitemap.xml
+Sitemap: https://koneksi-kpp.id/siterank/sitemap.xml
