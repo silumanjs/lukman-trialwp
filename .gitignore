@@ -1,12 +1,3 @@
-# WordPress Core files and folders
-wp-admin/
-wp-includes/
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
-index.php
-
 # Configuration files
 wp-config.php
 wp-config-sample.php
